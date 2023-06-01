@@ -1,0 +1,57 @@
+@media (max-width: 905px) {
+	section .container {
+		padding: 20px 0;
+	}
+	.left_column {
+		width: 96%;
+		float: none;
+		padding: 0 2%;
+	}
+
+	.right_column {
+		width: 96%;
+		float: none;
+		padding: 0 2%;
+	}
+}
+
+@media (max-width: 750px) {
+	.profile_image {
+		float: none;
+		margin-right: 0;
+	}
+	.profile_content {
+		float: none;
+
+	}
+	.profile_content ul {
+		text-align: center;
+		display: inline-block;
+		margin-bottom: 0;
+	}
+	.container .profile_contact {
+		float: none;
+		display: inline-block;
+	}
+	header {
+		padding: 15px 0;
+	}
+	.container {
+		text-align: center;
+	}
+	
+	section .container {
+		padding: 20px 0;
+	}
+	.left_column {
+		width: 96%;
+		float: none;
+		padding: 0 2%;
+	}
+
+	.right_column {
+		width: 96%;
+		float: none;
+		padding: 0 2%;
+	}
+}

@@ -1,0 +1,97 @@
+
+header {
+	padding: 30px;
+	background: #eee;
+	border-top: 10px solid #789;
+}
+
+.profile_image {
+	float: left;
+	margin-right: 30px;
+}
+
+.profile_content {
+	float: left;
+}
+
+.profile_content h1 {
+	color: #455;
+	font-size: 38px;
+	font-weight: 700;
+	margin: 30px 0 5px;
+}
+
+.profile_content h2 {
+	color: #789;
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.profile_content ul {
+	margin-bottom: 10px;
+}
+
+.profile_content li {
+	float: left;
+	margin-right: 10px;
+}
+
+.profile_content span {
+	display: block;
+	width: 48px;
+	height: 48px;
+	border-radius: 24px;
+	transition-duration: 0.8s;
+}
+
+.profile_content .telegram {
+	background: url("../images/telegram.png") no-repeat 40% 40% #89a;
+}
+.profile_content .telegram:hover {
+	background: url("../images/telegram.png") no-repeat 40% 40% #2aa1dd;
+}
+
+.profile_content .viber {
+	background: url("../images/viber.png") no-repeat center #89a;
+}
+.profile_content .viber:hover {
+	background: url("../images/viber.png") no-repeat center #93c;
+}
+
+.profile_content .mail {
+	background: url("../images/mail.png") no-repeat center #89a;
+}
+.profile_content .mail:hover {
+	background: url("../images/mail.png") no-repeat center #fc0;
+}
+
+.profile_content .tel {
+	background: url("../images/tel.png") no-repeat center #89a;
+}
+.profile_content .tel:hover {
+	background: url("../images/tel.png") no-repeat center #6AC239;
+}
+
+.container .profile_contact {
+	float: right;
+	margin-top: 60px;
+	font-weight: bold;
+	background: #5b4;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 6px 16px 12px;
+	border-radius: 4px;
+}
+.container .profile_contact:hover {
+	background: linear-gradient(180deg, #7d6, #6c5 );
+}
+
+.container .profile_contact span {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url("../images/mail.png") no-repeat center;
+	margin: 0 8px -10px 0;
+}

@@ -1,0 +1,151 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+}
+
+.container_mail {
+	width: 98%;
+	height: 95%;
+	padding: 1%;
+	background-color: #eee;
+}
+
+.content_mail {
+	width: 94%;
+	background: #dde;
+	border-radius: 5px;
+	display: flex;
+	padding: 90px 3%;
+}
+
+.mail_img {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.mail_img img {
+	width: 100%;
+	transition-duration: 0.8s;
+}
+
+.mail_img img:hover {
+	width: 110%;
+}
+	
+@media (max-width: 670px) {
+	.content_mail {
+		display: block;
+	}
+	.mail_img img {
+		padding-top: 3%;
+		width: 30%;
+	}
+	.mail_img img:hover {
+		padding-top: 0;
+		width: 33%;
+	}
+}
+
+.form_mail {
+	width: 360px;
+	margin: 0 auto;
+	padding: 20px 20px;
+}
+
+.form_mail h1 {
+	display: block;
+	font-size: 140%;
+	color: #333333;
+	text-align: center;
+	padding-bottom: 44px;
+}
+
+.form_mail h1:hover .sanu {
+	color: #333399;
+}
+
+.form_mail_input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form_mail_input .input {
+    display: block;
+	width: 100%;
+	background: #efefef;
+	font-size: 90%;
+	color: #555;
+	border: none;
+	border-radius: 3px;
+	padding: 5px;
+	font-weight: 400;
+	outline: none;
+	touch-action: manipulation;
+	transition-property: box-shadow;
+	transition-duration: 0.8s;
+}
+
+.form_mail_input .input:hover {
+    display: block;
+	width: 100%;
+	background: #fff;
+	font-size: 90%;
+	color: #555;
+	border: none;
+	border-radius: 3px;
+	padding: 5px;
+	font-weight: 400;
+	outline: none;
+	touch-action: manipulation;
+	transition-property: box-shadow;
+	transition-duration: 0.8s;
+}
+
+.form_mail_input .input:focus {
+	box-shadow: 4px 4px 8px #00f;
+	border: 1px solid #00f;
+	padding: 4px;
+}
+
+.form_mail_button {
+	text-align: center;
+}
+
+.form_mail_button .button_box {
+	display: inline-block;
+	min-width: 190px;
+	height: 40px;
+	border-radius: 10px;
+	background: #5b4;
+	transition: all 0.4s;
+	padding: 5px 10px 0;
+}
+
+.form_mail_button .button {
+	color: #fff;
+	font-size: 100%;
+	border: none;
+	background: none;
+}
+
+.arrow {
+	color: #fff;
+	position: relative;
+	left: -10px;
+	transition: all 0.4s;
+}
+
+.form_mail_button .button_box:hover {
+	background: #392;
+}
+
+.form_mail_button .button_box:hover .arrow {
+	left: 10px;
+}
+
+.nickname {
+	display: none;
+}

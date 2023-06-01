@@ -1,0 +1,39 @@
+
+section .container {
+	padding: 60px 0;
+}
+
+.left_column {
+	width: 63%;
+	float: left;
+	padding: 0 1%;
+}
+
+.right_column {
+	width: 33%;
+	float: right;
+	padding: 0 1%;
+}
+
+article {
+	background: #fff;
+	padding: 30px;
+	margin-bottom: 30px;
+	
+}
+section h2 {
+	color: #667;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	
+}
+section p {
+	font-size: 18px;
+	margin: 0 0 10px;
+	line-height: 140%;
+}
+
+.list-unstyled li {
+	margin-bottom: 10px;
+}
