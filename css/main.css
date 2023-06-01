@@ -1,0 +1,22 @@
+@import url("reset.css");
+@import url("header.css");
+@import url("content.css");
+@import url("footer.css");
+@import url("adaptation.css");
+
+.clear {
+	clear: both;
+}
+
+body {
+	font-family: arial, sans-serif;
+	color: #444;
+	background: #dde;
+	font-size: 16px;
+}
+
+.container {
+	max-width: 1170px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
