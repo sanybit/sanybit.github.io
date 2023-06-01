@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Письмо для SanyBit</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Письмо для Sanu Alex" />
+	<meta name="keywords" content="SanyBit, вёрстка сайтов, разработка программ" />
+	<link type="text/css" rel="stylesheet" href="../css/mail.css" />
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+	<div class="container_mail">
+		<div class="content_mail">
+			<div class="mail_img">
+				<img src="../images/email.png" alt="IMG">
+			</div>
+			<form id="form" class="form_mail" method="post">
+				<h1>Сообщение для <span class="sanu">SanyBit</span></h1>
+				<div class="form_mail_input">
+					<input class="input" type="text" name="name" placeholder="Ваше имя" required>
+					<input class="nickname" type="text" name="nickname_1" placeholder="Ваше прозвище">
+				</div>
+				<div class="form_mail_input">
+					<input class="input" type="text" name="email" placeholder="Куда вам ответить" required>
+					<input class="nickname" type="text" name="nickname_2" placeholder="Ваша почта">
+				</div>
+				<div class="form_mail_input">
+					<textarea class="input" name="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+				</div>
+				<div class="form_mail_button">
+					<div class="button_box">
+						<input class="button" type="submit" value="Отправить">
+						<span class="arrow">&rArr;</span>
+					</div>
+				</div>
+				<input type="hidden" name="eleter" value="send">
+			</form>
+		</div>
+	</div>
+	<script src="../js/send.js"></script>
+</body>
+</html>
